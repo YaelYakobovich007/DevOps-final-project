@@ -300,7 +300,7 @@
 </header>
 
 <nav>
-    <a id="menu-link" href="#menu">Menu- check</a>
+    <a id="menu-link" href="#menu">Menu</a>
     <a id="receipt-link" href="#receipt">Your Bill</a>
     <a id="about-link" href="#about">About</a>
     <a id="contact-link" href="#contact">Contact</a>
