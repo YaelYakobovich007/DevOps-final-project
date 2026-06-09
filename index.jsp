@@ -523,6 +523,23 @@
         resultBox.innerHTML = message;
         resultBox.style.display = 'block';
 
+        // --- DEV OPS UPDATE: Background Server Transaction ---
+        // Fired after validations pass, capturing name, total, and special notes for Gatling to track.
+        fetch('index.jsp', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: 'customerName=' + encodeURIComponent(name) + 
+                  '&total=' + currentGrandTotal + 
+                  '&notes=' + encodeURIComponent(notes)
+        })
+        .then(function(response) {
+            console.log("Server transaction successfully recorded.");
+        })
+        .catch(function(error) {
+            console.error("Error dispatching transaction to server:", error);
+        });
+        // ------------------------------------------------------
+
         // 3. Clear Screen logic: Reset inputs and cart object after checkout
         nameInput.value = '';
         notesInput.value = '';
