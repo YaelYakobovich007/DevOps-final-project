@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mini Coffee Shop</title>
+    <title>Mini Coffee Shop1</title>
     <style>
         * {
             box-sizing: border-box;
