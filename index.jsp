@@ -313,7 +313,7 @@
         <div class="products">
             <div class="product-card" id="americano-card">
                 <img id="img-americano" src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Americano">
-                <h3 id="title-americano">Americano</h3>
+                <h3 id="title-americano">Americano - check</h3>
                 <p id="price-americano" class="price">$5</p>
                 <div class="quantity-controls">
                     <button id="minus-btn-americano" class="qty-btn" onclick="updateQty('Americano', 5, -1)">-</button>
