@@ -324,7 +324,7 @@
 
             <div class="product-card" id="cappuccino-card">
                 <img id="img-cappuccino" src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Cappuccino">
-                <h3 id="title-cappuccino">Cappuccino</h3>
+                <h3 id="title-cappuccino">Matcha Latte</h3>
                 <p id="price-cappuccino" class="price">$4</p>
                 <div class="quantity-controls">
                     <button id="minus-btn-cappuccino" class="qty-btn" onclick="updateQty('Cappuccino', 4, -1)">-</button>
